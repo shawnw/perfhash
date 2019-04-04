@@ -6,7 +6,7 @@ set(JSON_Install OFF CACHE INTERNAL "")
 add_subdirectory(nlohmann_json)
 
 
-add_executable(perfhash perfhash.cpp)
+add_executable(perfhash perfhash.cpp cpp_gen.cpp)
 set_target_properties(perfhash PROPERTIES
   CXX_STANDARD 14
   CXX_STANDARD_REQUIRED 1)

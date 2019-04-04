@@ -65,9 +65,11 @@ Controls the output language, files and language-specific options. The
 For C++ output, `"language"` can be `"c++17"` or `"c++14"`. Older
 versions are not currently supported.
 
-The keys `"source file"` and `"header file"` name the respective
-files. `"class"` is used to control the name of the resulting table
-type. For maps, `"value type"` is the type of the value.
+The key `"header file"` names the output file (The hash table is a
+header-only). `"class"` is used to control the name of the resulting
+table type. For maps, `"value type"` is the type of the value. The
+optional `"namespace"` field puts the generated classes in the given
+namespace.
 
 ### Example ###
 

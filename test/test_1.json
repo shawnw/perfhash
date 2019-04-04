@@ -1,0 +1,15 @@
+{ "type": "map",
+  "output": {
+      "language": "c++17",
+      "header file": "foo.h",
+      "namespace": "my",
+      "class": "my_map",
+      "value type": "int"
+  },
+  "data": [
+      {"key": "dog", "value":"1"},
+      {"key": "cat", "value":"2"},
+      {"key": "rat", "value":"3"}
+  ]
+}
+
